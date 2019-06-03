@@ -1,6 +1,6 @@
 {
-  "name": "rect-cli",
-  "version": "0.0.7",
+  "name": "xm-rect-cli",
+  "version": "0.0.1",
   "description": "快速创建项目模板",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "bin": {
     "rect": "./index.js"
   },
-  "author": "zkj",
+  "author": "zdf",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1",
