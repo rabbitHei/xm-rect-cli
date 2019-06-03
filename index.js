@@ -137,16 +137,16 @@ function run(root,appName, repoUrl) {
         console.log(chalk.cyan(`  npm start`));
         console.log(' Starts the development server.');
         console.log();
-        console.log(chalk.cyan(`  npm run build`));
+        console.log(chalk.cyan(`  npm run build:pro`));
         console.log(' Bundles the app into static files for production.');
         console.log();
-        console.log(chalk.cyan(`  npm run test`));
+        console.log(chalk.cyan(`  npm run build`));
         console.log(' Bundles the app into static files for production.');
         console.log();
         console.log('✨ Happy hacking!');
         console.log()
         console.log(
-          chalk.yellow(figlet.textSync('rect-cli', { horizontalLayout: 'full' }))
+          chalk.yellow(figlet.textSync('xm-rect-cli', { horizontalLayout: 'full' }))
         )
       })
     }
