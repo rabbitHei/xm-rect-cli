@@ -13,11 +13,15 @@ npm install -g xm-rect-cli
 rect myProjectName
 
 //配置package.json
-name: xxx
-homepage:{
-"pro":"线上环境源域名",
-"test":"测试环境源域名"  
-}
+"name": "xxx",
+"homepage":{
+    "pro":"线上静态源域名(//www.xxx.com/build/)",
+    "test":"测试静态源域名(//www.test.xxx.com/build/)"  
+},
+"xpm3": {
+    "rep": "sr012018" or "xpm-publish", //默认使用sr012018 新发布源
+    "output": "build/",//xpm3默认打包到dist目录    
+},
 
 // 启动
 cd myProjectName
