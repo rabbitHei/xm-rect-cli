@@ -16,6 +16,7 @@ rect myProjectName
 "name": "xxx",
 "homepage":{
     "pro":"线上静态源域名(//www.xxx.com/build/)",
+    "uat":"线上静态源域名(//www.uat.com/build/)",
     "test":"测试静态源域名(//www.test.xxx.com/build/)"  
 },
 "xpm3": {
@@ -29,5 +30,6 @@ npm start
 
 // 打包
 npm run build
+npm run build:uat uat打包
 npm run build:pro 线上打包
 ```
