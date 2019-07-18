@@ -24,6 +24,23 @@ rect myProjectName
     "output": "build/",//xpm3默认打包到dist目录    
 },
 
+//配置拆包功能 config/webpack.config.js 默认不使用
+    //**** 拆包功能
+    // splitChunks: {
+    //   chunks: "all",
+    //   name: false,
+    //   cacheGroups: {
+    //       reactModules: {
+    //         test:  /[\\/]node_modules[\\/](react|react-dom|react-router-dom)[\\/]/,
+    //         name:'reactModules',
+    //         chunks: "all",
+    //         minChunks: 1,
+    //         priority: 2,
+    //         // reuseExistingChunk: true,
+    //       },
+    // },
+    //**** 拆包功能
+
 // 启动
 cd myProjectName
 npm start
