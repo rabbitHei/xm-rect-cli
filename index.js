@@ -22,6 +22,7 @@ const errorLogFilePatterns = [
 const templateList = [
   // chalk.magenta('react + react-router + axios'),
   chalk.magenta('react + react-router + axios (H5版, vw适配)'),
+  chalk.magenta('react + react-router + axios (H5版, vw适配, mobx)'),
   chalk.magenta('react + react-router + axios + antd'),
   // chalk.magenta('react + react-router + axios + redux'),
   // chalk.magenta('react + react-router + axios + mobx'),
@@ -77,7 +78,9 @@ function createApp(name) {
     const { type } = answer
     if(type.indexOf('antd') > -1){
       repoUrl = 'direct:https://github.com/rabbitHei/react-antd-template.git'
-    }else if(type.indexOf('H5') > -1){
+    }else if(type.indexOf('mobx') > -1){
+      repoUrl = 'direct:https://github.com/rabbitHei/react-vw-mobx-template.git'
+    }else if(type.indexOf('h5') > -1){
       repoUrl = 'direct:https://github.com/rabbitHei/react-vw-template.git'
     }else{
       // 使用默认模板antd

@@ -1,6 +1,7 @@
 ## rect-cli  
 用于快速创建React项目的脚手架，真正开箱即用直接进行业务开发，目前涵盖下面几种常见业务场景：  
 - react + react-router + axios(h5版本, vw适配,包涵SDK 埋点)  
+- react + react-router + axios(h5版本, vw适配, mobx, 包涵SDK 埋点)  
 - react + react-router + axios + antd  (OPS 后台)
 - 详细文档可见拉下来的项目中 readMe.md
 

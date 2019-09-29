@@ -1,6 +1,6 @@
 {
   "name": "xm-rect-cli",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "快速创建项目模板",
   "main": "index.js",
   "scripts": {
