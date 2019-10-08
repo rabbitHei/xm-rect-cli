@@ -80,7 +80,7 @@ function createApp(name) {
       repoUrl = 'direct:https://github.com/rabbitHei/react-antd-template.git'
     }else if(type.indexOf('mobx') > -1){
       repoUrl = 'direct:https://github.com/rabbitHei/react-vw-mobx-template.git'
-    }else if(type.indexOf('h5') > -1){
+    }else if(type.indexOf('H5') > -1){
       repoUrl = 'direct:https://github.com/rabbitHei/react-vw-template.git'
     }else{
       // 使用默认模板antd
