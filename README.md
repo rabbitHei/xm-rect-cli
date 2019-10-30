@@ -24,6 +24,9 @@ rect myProjectName
     "rep": "sr012018" or "xpm-publish", //默认使用sr012018 新发布源
     "output": "build/",//xpm3默认打包到dist目录    
 },
+"yxpm": { //云效打包路径配置
+    "output": "build/"
+},
 
 //配置拆包功能 config/webpack.config.js 默认不使用
     //**** 拆包功能
